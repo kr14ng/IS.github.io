@@ -1,105 +1,99 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <title>UNIASSIST | แนะนำมหาวิทยาลัยเชียงใหม่</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>UNIASSIST</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: "Segoe UI", Tahoma, sans-serif;
-            background-color: #ffffff;
-            text-align: center;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #ffffff;
+}
 
-        /* Header */
-        .header {
-            display: flex;
-            align-items: center;
-            padding: 20px 40px;
-        }
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
 
-        .logo {
-            width: 60px;
-            height: 60px;
-            background-color: #e5e5e5;
-            border-radius: 8px;
-            margin-right: 15px;
-        }
+.logo {
+    width: 55px;
+    height: 55px;
+    background: #1f3c88;
+    border-radius: 10px;
+    margin-right: 15px;
+}
 
-        .title {
-            font-size: 26px;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
+.title {
+    font-size: 26px;
+    font-weight: bold;
+}
 
-        /* Main banner */
-        .banner {
-            background-color: #0a1f8f;
-            color: white;
-            padding: 50px 20px;
-            line-height: 1.8;
-            font-size: 20px;
-        }
+/* MAIN SECTION */
+.main {
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-        /* Button section */
-        .button-section {
-            margin: 80px 0;
-        }
+/* BLUE BOX */
+.banner {
+    width: 100%;
+    background: #0b1f8f;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    line-height: 1.8;
+    font-size: 20px;
+}
 
-        .start-btn {
-            background-color: #5bb52a;
-            color: white;
-            border: none;
-            padding: 18px 50px;
-            font-size: 22px;
-            border-radius: 40px;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
+/* BUTTON */
+.start-btn {
+    margin-top: 60px;
+    background: #5bb52a;
+    color: white;
+    font-size: 22px;
+    padding: 18px 60px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
 
-        .start-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-        }
-
-        /* Footer */
-        footer {
-            font-size: 14px;
-            color: #777;
-            margin-bottom: 20px;
-        }
-    </style>
+.start-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+</style>
 </head>
+
 <body>
 
-    <!-- Header -->
-    <div class="header">
-        <div class="logo"></div>
-        <div class="title">UNIASSIST</div>
-    </div>
+<div class="header">
+    <div class="logo"></div>
+    <div class="title">UNIASSIST</div>
+</div>
 
-    <!-- Banner -->
+<div class="main">
+
     <div class="banner">
-        ไม่ต้องเสียเวลาหาข้อมูลเป็นชั่วโมง<br>
-        เว็บไซต์ของเราช่วยคัดมหาวิทยาลัยที่ตรงกับคุณที่สุด<br>
+        ไม่ต้องใส่ค่าข้อมูลเป็นชั่วโมง<br>
+        เว็บไซต์ของเราช่วยค้นหามหาวิทยาลัยที่ตรงกับคุณที่สุด<br>
         ประหยัดเวลา ตัดสินใจง่ายขึ้น<br>
-        <strong>แค่คลิกเดียวก็รู้ผล!</strong>
+        <b>แค่คลิกเดียวก็รู้ผล!</b>
     </div>
 
-    <!-- Button -->
-    <div class="button-section">
-        <button class="start-btn"
-            onclick="window.location.href='https://docs.google.com/spreadsheets/d/14BRSkmCeQ2ovth9K3puNHbTmuvQI4mGOo4Cro2X7Fok/edit?usp=drivesdk'">
-            เริ่มเลย
-        </button>
-    </div>
+    <button class="start-btn"
+        onclick="window.location.href='https://docs.google.com/spreadsheets/d/14BRSkmCeQ2ovth9K3puNHbTmuvQI4mGOo4Cro2X7Fok/edit?usp=drivesdk'">
+        เริ่มเลย
+    </button>
 
-    <!-- Footer -->
-    <footer>
-        © 2026 UNIASSIST | แนะนำมหาวิทยาลัยในเชียงใหม่
-    </footer>
+</div>
 
 </body>
 </html>
